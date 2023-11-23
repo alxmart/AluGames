@@ -3,7 +3,6 @@ import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse.BodyHandlers
 
-
 fun main() {
 
     val client: HttpClient = HttpClient.newHttpClient()
@@ -17,6 +16,5 @@ fun main() {
 
     val json = response.body()
     println(json)
-
 
 }
